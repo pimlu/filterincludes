@@ -7,7 +7,7 @@
     "type" : "git",
     "url" : "https://github.com/pimlu/filterincludes.git"
   },
-  "version": "0.0.2",
+  "version": "1.0.0",
   "license": "GPL-3.0",
   "engines": {
     "vscode": "^1.33.0"
