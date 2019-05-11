@@ -15,8 +15,8 @@ This extension (marketplace [link](https://marketplace.visualstudio.com/items?it
  * `ctrl+shift+p`, select "Filter Includes" command
  * It will prompt you for a build command, e.g. `make`.
  * Press enter - don't touch anything! It will try removing includes.
- * If it did break stuff, `ctrl+z` will work.
 
 ## Tips
 
-  * This uses your project as the current directory, so you might use `cd build && make` as your build command
+ * If it did break stuff, `ctrl+z` will work.
+ * This uses your project as the current directory, so you might use `cd build && make` as your build command
