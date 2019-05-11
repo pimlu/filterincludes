@@ -15,3 +15,7 @@
 ## [1.0.1]
 
 - Readme update
+
+## [1.0.3]
+
+- Add categories, tags (skip one lol)
