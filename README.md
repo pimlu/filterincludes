@@ -1,6 +1,6 @@
 # Filter Includes extension
 
-This extension is basically an automation of [this SO answer](https://stackoverflow.com/a/614915) from 10 years ago. It's probably a bad idea to use this thing.
+This extension (marketplace [link](https://marketplace.visualstudio.com/items?itemName=pimlu.filterincludes)) is basically an automation of [this SO answer](https://stackoverflow.com/a/614915) from 10 years ago. It's probably a bad idea to use this thing.
 
 ## Features
 
@@ -14,7 +14,9 @@ This extension is basically an automation of [this SO answer](https://stackoverf
  * Select some lines of text containing your includes
  * `ctrl+shift+p`, select "Filter Includes" command
  * It will prompt you for a build command, e.g. `make`.
-    * (This will run with your project as the current working directory, so you might need `cd build && make`)
  * Press enter - don't touch anything! It will try removing includes.
  * If it did break stuff, `ctrl+z` will work.
 
+## Tips
+
+  * This uses your project as the current directory, so you might use `cd build && make` as your build command

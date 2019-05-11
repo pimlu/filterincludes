@@ -74,12 +74,11 @@ export function activate(context: vscode.ExtensionContext) {
     vscode.window.showInputBox(options).then(async cmd => {
       if (!cmd) return Promise.reject('blank');
       context.workspaceState.update('lastCommand', cmd);
-      var filepath = editor.document.fileName;
+      let filepath = editor.document.fileName;
 
       let linesText = editor.document.getText(s);
       let lo = editor.document.offsetAt(s.start);
       let hi = editor.document.offsetAt(s.end);
-      let badFs = false;
       let data;
       try {
         data = fs.readFileSync(filepath, 'utf8');
